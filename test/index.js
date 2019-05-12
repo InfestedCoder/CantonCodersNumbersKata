@@ -1,5 +1,5 @@
-import {answer} from '../index';
-import assert from 'assert';
+var answer =  require('../index');
+var assert = require('assert');
 
 describe('meaning of life', () => {
 
