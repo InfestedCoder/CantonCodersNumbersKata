@@ -1,3 +1,4 @@
-export const answer = () => {
-    return 6 * 9;
+function answer () {
+    return 6 * 7;
 }
+module.exports = answer
