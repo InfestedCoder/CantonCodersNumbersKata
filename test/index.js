@@ -5,7 +5,7 @@ describe('meaning of life', () => {
 
     it('returns 42', () => {
         const result = answer();
-        assert.equal(result, 42);
+        assert.strictEqual(result, 42);
     });
 
 });
