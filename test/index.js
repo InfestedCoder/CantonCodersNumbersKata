@@ -1,11 +1,11 @@
 import {answer} from '../index';
-import assert from 'assert';
+import {expect} from "chai";
 
 describe('meaning of life', () => {
 
     it('returns 42', () => {
         const result = answer();
-        assert.strictEqual(result, 42);
+        expect(result).to.equal(42);
     });
 
 });
