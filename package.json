@@ -4,21 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": " mocha --require babel-core/register"
+    "test": " mocha --require @babel/register"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "npm": "^6.9.0"
+    "npm": "^7.12.1"
   },
   "devDependencies": {
-    "babel-preset-latest": "^6.24.1",
-    "babel-register": "^6.26.0",
-    "mocha": "^6.1.4"
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/register": "^7.13.16",
+    "mocha": "^8.4.0"
   },
   "babel": {
     "presets": [
-      "latest"
+      "@babel/preset-env"
     ]
   }
 }
